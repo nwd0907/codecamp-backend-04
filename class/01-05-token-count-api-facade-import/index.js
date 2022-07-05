@@ -6,9 +6,7 @@ console.log("안녕하세요!!")
 function createTokenOfPhone(myphone){
     // 1. 휴대폰번호 자릿수 맞는지 확인하기
     const isValid = checkValidationPhone(myphone)
-    if(isValid === false){
-        return
-    }
+    if(isValid === false) return
 
     // 2. 핸드폰 토큰 6자리 만들기
     const mytoken = getToken()
