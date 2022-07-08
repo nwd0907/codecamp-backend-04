@@ -27,4 +27,3 @@ export function getToken(){
 export function sendTokenToSMS(myphone, result){
     console.log(myphone + "번호로 인증번호" + result + "을 전송합니다!!!")
 }
-
