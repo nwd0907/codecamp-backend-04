@@ -1,5 +1,5 @@
-import { CashService } from './services/cash.js'
-import { ProductService } from './services/product.js'
+import { CashService } from './services/cash.service.js'
+import { ProductService } from './services/product.service.js'
 
 export class ProductController{
     buyProduct = (req, res) => {
